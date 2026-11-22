@@ -1,0 +1,60 @@
+{
+  "variant": 39,
+  "seed": 69,
+  "baseSeed": 30,
+  "sourceCommit": "d0295a1606a5f544ff243af918906eb29accd8b2",
+  "method": "random.Random(69), случайные уникальные ключи, одинаковые запросы",
+  "sizes": [
+    1000,
+    3000,
+    10000,
+    30000,
+    100000
+  ],
+  "queries": 1000,
+  "repeats": 5,
+  "warmup": 1,
+  "python": "Python 3.14.10",
+  "os": "#1 SMP PREEMPT_DYNAMIC Fri, 30 Oct 2026 14:32:40 +0000",
+  "cpu": "AMD Ryzen 5 5600G with Radeon Graphics",
+  "largeProtocol": {
+    "independentProcesses": true,
+    "warmupQueriesPerProcess": 100,
+    "samples": [
+      [
+        100000,
+        43,
+        0.002434661000734195,
+        3.312322703000973
+      ],
+      [
+        100000,
+        43,
+        0.0022114630010037217,
+        3.172110421997786
+      ],
+      [
+        100000,
+        43,
+        0.0021464920027938206,
+        4.482807985998079
+      ],
+      [
+        100000,
+        43,
+        0.0020749670002260245,
+        3.516842404002091
+      ],
+      [
+        100000,
+        43,
+        0.0021481039984792005,
+        3.2115309629989497
+      ]
+    ]
+  },
+  "artifacts": {
+    "benchmark.csv": "b39acc3f8d43a728fbc461ee5877e3735c80202969b43f07fb3cde19cdedc0db",
+    "verification.txt": "a0f175573aae8ae2c1b57e79a1f3feb5a0185033094e58b9d910213f10196366"
+  }
+}
