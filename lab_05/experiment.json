@@ -2,8 +2,8 @@
   "variant": 39,
   "seed": 69,
   "baseSeed": 30,
-  "sourceCommit": "d0295a1606a5f544ff243af918906eb29accd8b2",
-  "method": "random.Random(69), случайные уникальные ключи, одинаковые запросы",
+  "teacherCommit": "9fc202db8db265d4bc398d45c0775d94a8046e1f",
+  "upstreamStarterBlob": "2a0d20124be6813dcb4260617ce4ca53cd4275f0",
   "sizes": [
     1000,
     3000,
@@ -14,47 +14,18 @@
   "queries": 1000,
   "repeats": 5,
   "warmup": 1,
-  "python": "Python 3.14.10",
-  "os": "#1 SMP PREEMPT_DYNAMIC Fri, 30 Oct 2026 14:32:40 +0000",
+  "timer": "time.perf_counter",
+  "method": "Один random.Random(69) на всю серию; одинаковые запросы для каждого n; медиана полного пакета; построение вне замера.",
+  "python": "3.14.10",
+  "os": "Linux 7.2.14-arch1-1",
   "cpu": "AMD Ryzen 5 5600G with Radeon Graphics",
-  "largeProtocol": {
-    "independentProcesses": true,
-    "warmupQueriesPerProcess": 100,
-    "samples": [
-      [
-        100000,
-        43,
-        0.002434661000734195,
-        3.312322703000973
-      ],
-      [
-        100000,
-        43,
-        0.0022114630010037217,
-        3.172110421997786
-      ],
-      [
-        100000,
-        43,
-        0.0021464920027938206,
-        4.482807985998079
-      ],
-      [
-        100000,
-        43,
-        0.0020749670002260245,
-        3.516842404002091
-      ],
-      [
-        100000,
-        43,
-        0.0021481039984792005,
-        3.2115309629989497
-      ]
-    ]
-  },
+  "command": "python3 lab_05/lab05-bst-completed.py --variant 39",
   "artifacts": {
-    "benchmark.csv": "b39acc3f8d43a728fbc461ee5877e3735c80202969b43f07fb3cde19cdedc0db",
-    "verification.txt": "a0f175573aae8ae2c1b57e79a1f3feb5a0185033094e58b9d910213f10196366"
+    "lab05-bst-starter.py": "55aab3dd6ab5dab1441584a9bf7e197cbe233889705b082c41198d68857f6fd2",
+    "lab05-bst-completed.py": "864ffe08bd4aa885fdf75276bc957dd2ecd48925cefba7967ee09dd7d11abfbd",
+    "bst.py": "ee35fa38af3f436ceb4d9879b10d385b3bcc0640976f616646636febb5f85a78",
+    "benchmark.csv": "849d3112b020b7ee021e491804584eca88254dc78638678c848aa373e1fb5320",
+    "benchmark.svg": "7ce7beb46ec15af35bb5d1d54a515718ec70570d895385d4add2d1001ecd658d",
+    "verification.txt": "3477051b13bf5f94a997d2591e75365d45251887c6a01fc86a6e2ba42bbc11c0"
   }
 }

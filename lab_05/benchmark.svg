@@ -1,17 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="735" height="510" viewBox="0 0 735 510"><rect width="735" height="510" fill="white"/>
- <g font-family="sans-serif" font-size="13" fill="#111827"><text x="95" y="39" font-size="19">BST и список · 1000 запросов · seed 69</text>
- <text x="95" y="70">Медиана, секунды · обе оси логарифмические</text>
- <line x1="95" x2="645" y1="440" y2="440" stroke="#e5e7eb"/>
- <text x="84" y="444" text-anchor="end">0.0001</text>
- <line x1="95" x2="645" y1="370" y2="370" stroke="#e5e7eb"/>
- <text x="84" y="374" text-anchor="end">0.001</text>
- <line x1="95" x2="645" y1="300" y2="300" stroke="#e5e7eb"/>
- <text x="84" y="304" text-anchor="end">0.01</text>
- <line x1="95" x2="645" y1="230" y2="230" stroke="#e5e7eb"/>
- <text x="84" y="234" text-anchor="end">0.1</text>
- <line x1="95" x2="645" y1="160" y2="160" stroke="#e5e7eb"/>
- <text x="84" y="164" text-anchor="end">1</text>
- <line x1="95" x2="645" y1="90" y2="90" stroke="#e5e7eb"/>
- <text x="84" y="94" text-anchor="end">10</text>
- <path d="M95 90V440H645" fill="none" stroke="#334155"/><text x="95" y="464" text-anchor="middle">1000</text><text x="223.8227387743089" y="464" text-anchor="middle">3000</text><text x="365" y="464" text-anchor="middle">10000</text><text x="493.8227387743089" y="464" text-anchor="middle">30000</text><text x="635" y="464" text-anchor="middle">100000</text><polyline fill="none" stroke="#1769aa" stroke-width="3" points="95,391.74837986134656 223.8227387743089,388.0092408086711 365,370.3055363781715 493.8227387743089,377.86678897649847 635,346.75760060807374"/><circle cx="95" cy="391.74837986134656" r="4" fill="#1769aa"/><circle cx="223.8227387743089" cy="388.0092408086711" r="4" fill="#1769aa"/><circle cx="365" cy="370.3055363781715" r="4" fill="#1769aa"/><circle cx="493.8227387743089" cy="377.86678897649847" r="4" fill="#1769aa"/><circle cx="635" cy="346.75760060807374" r="4" fill="#1769aa"/><text x="540" y="70" fill="#1769aa">BST</text><polyline fill="none" stroke="#b45309" stroke-width="3" points="95,320.37486249353685 223.8227387743089,287.92188119393455 365,250.13220080152993 493.8227387743089,216.49999194386928 635,123.59071238250783"/><circle cx="95" cy="320.37486249353685" r="4" fill="#b45309"/><circle cx="223.8227387743089" cy="287.92188119393455" r="4" fill="#b45309"/><circle cx="365" cy="250.13220080152993" r="4" fill="#b45309"/><circle cx="493.8227387743089" cy="216.49999194386928" r="4" fill="#b45309"/><circle cx="635" cy="123.59071238250783" r="4" fill="#b45309"/><text x="614" y="70" fill="#b45309">Список</text>
- <text x="370" y="493" text-anchor="middle">Число ключей</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="408" viewBox="0 0 985 408" role="img"><title>Поиск в BST и списке, вариант 39</title><rect width="985" height="408" fill="white"/><g fill="#17283c" font-family="sans-serif" font-size="12"><text x="76" y="63" font-size="18" font-weight="bold">BST и список</text>
+<text x="76" y="83">Время, с за 1000 запросов</text>
+<path d="M76 345.0h380" stroke="#dbe5eb"/>
+<text x="67" y="349.0" text-anchor="end">0.0001</text>
+<path d="M76 295.0h380" stroke="#dbe5eb"/>
+<text x="67" y="299.0" text-anchor="end">0.001</text>
+<path d="M76 245.0h380" stroke="#dbe5eb"/>
+<text x="67" y="249.0" text-anchor="end">0.01</text>
+<path d="M76 195.0h380" stroke="#dbe5eb"/>
+<text x="67" y="199.0" text-anchor="end">0.1</text>
+<path d="M76 145.0h380" stroke="#dbe5eb"/>
+<text x="67" y="149.0" text-anchor="end">1</text>
+<path d="M76 95.0h380" stroke="#dbe5eb"/>
+<text x="67" y="99.0" text-anchor="end">10</text>
+<text x="76.0" y="364" text-anchor="middle">1000</text>
+<text x="166.7" y="364" text-anchor="middle">3000</text>
+<text x="266.0" y="364" text-anchor="middle">10000</text>
+<text x="356.7" y="364" text-anchor="middle">30000</text>
+<text x="456.0" y="364" text-anchor="middle">100000</text>
+<path d="M76 95v250h380" fill="none" stroke="#334155"/>
+<text x="266.0" y="389" text-anchor="middle">Число ключей n · логарифмическая шкала</text>
+<polyline points="76.0,310.7 166.7,303.1 266.0,305.1 356.7,302.6 456.0,298.5" fill="none" stroke="#166a92" stroke-width="2.5"/>
+<circle cx="76.0" cy="310.7" r="3.5" fill="#166a92"/>
+<circle cx="166.7" cy="303.1" r="3.5" fill="#166a92"/>
+<circle cx="266.0" cy="305.1" r="3.5" fill="#166a92"/>
+<circle cx="356.7" cy="302.6" r="3.5" fill="#166a92"/>
+<circle cx="456.0" cy="298.5" r="3.5" fill="#166a92"/>
+<text x="311" y="111" fill="#166a92">BST</text>
+<polyline points="76.0,258.9 166.7,235.5 266.0,207.9 356.7,184.4 456.0,114.5" fill="none" stroke="#9e430e" stroke-width="2.5"/>
+<circle cx="76.0" cy="258.9" r="3.5" fill="#9e430e"/>
+<circle cx="166.7" cy="235.5" r="3.5" fill="#9e430e"/>
+<circle cx="266.0" cy="207.9" r="3.5" fill="#9e430e"/>
+<circle cx="356.7" cy="184.4" r="3.5" fill="#9e430e"/>
+<circle cx="456.0" cy="114.5" r="3.5" fill="#9e430e"/>
+<text x="394" y="111" fill="#9e430e">Список</text><text x="553" y="63" font-size="18" font-weight="bold">Поиск в BST</text>
+<text x="553" y="83">Время, мс за 1000 запросов</text>
+<path d="M553 345.0h380" stroke="#dbe5eb"/>
+<text x="544" y="349.0" text-anchor="end">0</text>
+<path d="M553 295.0h380" stroke="#dbe5eb"/>
+<text x="544" y="299.0" text-anchor="end">0.2</text>
+<path d="M553 245.0h380" stroke="#dbe5eb"/>
+<text x="544" y="249.0" text-anchor="end">0.4</text>
+<path d="M553 195.0h380" stroke="#dbe5eb"/>
+<text x="544" y="199.0" text-anchor="end">0.6</text>
+<path d="M553 145.0h380" stroke="#dbe5eb"/>
+<text x="544" y="149.0" text-anchor="end">0.8</text>
+<path d="M553 95.0h380" stroke="#dbe5eb"/>
+<text x="544" y="99.0" text-anchor="end">1</text>
+<text x="553.0" y="364" text-anchor="middle">10.0</text>
+<text x="643.7" y="364" text-anchor="middle">11.6</text>
+<text x="743.0" y="364" text-anchor="middle">13.3</text>
+<text x="833.7" y="364" text-anchor="middle">14.9</text>
+<text x="933.0" y="364" text-anchor="middle">16.6</text>
+<path d="M553 95v250h380" fill="none" stroke="#334155"/>
+<text x="743.0" y="389" text-anchor="middle">log₂ n · линейная шкала</text>
+<polyline points="553.0,223.8 643.7,172.8 743.0,187.8 833.7,168.5 933.0,132.2" fill="none" stroke="#166a92" stroke-width="2.5"/>
+<circle cx="553.0" cy="223.8" r="3.5" fill="#166a92"/>
+<circle cx="643.7" cy="172.8" r="3.5" fill="#166a92"/>
+<circle cx="743.0" cy="187.8" r="3.5" fill="#166a92"/>
+<circle cx="833.7" cy="168.5" r="3.5" fill="#166a92"/>
+<circle cx="933.0" cy="132.2" r="3.5" fill="#166a92"/>
+<text x="788" y="111" fill="#166a92">BST</text></g></svg>
